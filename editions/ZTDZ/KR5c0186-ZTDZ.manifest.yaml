@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0186/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0186/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 正一法文天師教戒科經
+  date: '2015-08-29 00:54:10.900140'
+  source:
+    repository: kanripo
+    path: KR5c0186
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0186_000-ZTDZ.yaml, hash: 'sha256:884b32420c49a395721c731c8e9431c730f19878751c64b474a3f5d6edc6a287'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0186_000-ZTDZ.markers.yaml, hash: 'sha256:38ad17053944f818ce814d5b5f972ed3d76b56354936efcb3b290caf65e9459a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0186_SJB_000-180232a
+    span:
+    - body
+    - 0
+    - 3500
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c11b27bab648dfecb752d2969fa97e7c446eba1bf5816cde4e2a06b0c69baec1
